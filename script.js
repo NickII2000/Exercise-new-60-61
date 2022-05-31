@@ -20,3 +20,7 @@ console.log(set);
 for (let value of set) {
     console.log(value);
 }
+
+set.forEach((value, valueAgaing, set) => {
+    console.log(value, valueAgaing);
+});
