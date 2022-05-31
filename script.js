@@ -34,3 +34,15 @@ function unique(arr) {
 }
 
 console.log(unique(arr));
+
+// BigInt
+
+console.log(Number.MAX_SAFE_INTEGER);
+
+const bigInt = 1234567890123456789012345678901234567890123456789001234567890;
+const sameBigInt = BigInt(1234567890123456789012345678901234567890123456789001234567890);
+console.log(typeof (bigInt));
+console.log(typeof (sameBigInt));
+// console.log(1n + 1); // ошибка
+// console.log(Math.round(5n)); // ошибка
+console.log(1n + 2n);
