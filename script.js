@@ -46,3 +46,5 @@ console.log(typeof (sameBigInt));
 // console.log(1n + 1); // ошибка
 // console.log(Math.round(5n)); // ошибка
 console.log(1n + 2n);
+
+console.log(5n / 2n);
