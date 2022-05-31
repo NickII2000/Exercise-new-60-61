@@ -21,6 +21,10 @@ for (let value of set) {
     console.log(value);
 }
 
-set.forEach((value, valueAgaing, set) => {
-    console.log(value, valueAgaing);
+set.forEach((value, valueAgain, set) => {
+    console.log(value, valueAgain);
 });
+
+console.log(set.values());
+console.log(set.keys());
+console.log(set.entries());
