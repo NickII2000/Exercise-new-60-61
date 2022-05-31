@@ -59,3 +59,4 @@ let bigInt2 = 1n;
 let number = 2;
 
 console.log(bigInt2 + BigInt(number));
+console.log(Number(bigInt2) + number);
