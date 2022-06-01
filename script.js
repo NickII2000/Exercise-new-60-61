@@ -56,7 +56,7 @@ console.log(2n === 2);
 
 
 let bigInt2 = 5n;
-let number = 3;
+let number = 30;
 
 console.log(bigInt2 + BigInt(number));
 console.log(Number(bigInt2) + number);
